@@ -1,0 +1,32 @@
+/* Menu.css */
+
+.menu {
+    display: inline-block; /* 메뉴 항목들을 가로로 배열하도록 설정 */
+  }
+  
+  .search,
+  .regist,
+  .login {
+    cursor: pointer;
+    padding: 10px 55px;
+    margin: 5px;
+    transition: color 0.3s, background-color 0.3s, border-radius 0.3s;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  .search:hover,
+  .regist:hover,
+  .login:hover,
+  .search.active,
+  .regist.active,
+  .login.active {
+    color: #fff;
+    background-color: #2196f3;
+    border-radius: 50px;
+  }
+  
